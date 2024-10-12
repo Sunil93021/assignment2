@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Recipe Card
+        </title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="./js/scripts.js"></script>
+         
+        <!-- <meta http-equiv= "refresh"content="10"> -->
+    </head>
+    <body>
+        
+            <div class= "recipeCard" id="recipeCard">
+                    <div class="data">
+                        <h1><center>Milk Tea</center></h1>
+                    
+                        <img src="./image/Tea.jpg" alt="Tea image" id= "Tea">
+                        
+                    </div>
+                    
+                        <button onclick="showIngredients()" id = "b1">Show Ingredients</button>
+                        <p id = "ingredientsParagraph"></p>
+                        
+                    
+                        
+                        <button id = "b2" onclick="startCook()">Start Cooking</button>
+                        <p id = "process"> </p>
+                        <div>
+                            
+                            <progress id = "pro" value="0" max="100"></progress>
+                            <!-- <p id = "timer"></p> -->
+                            
+                        </div>
+                        prepartion time : 2 minutes 
+                        cooking time : 10 minutes 
+                        serves : 2 cups 
+                        
+                        <div>
+                            
+                            <img src="./image/print.jpg" alt="print" onclick="window.print()" id = "print">
+
+                        </div>
+                        
+            </div>
+        
+        
+    </body>
+</html>+

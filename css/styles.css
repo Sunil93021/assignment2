@@ -1,0 +1,80 @@
+#recipeCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 700px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    margin : 5px;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(167, 169, 169);
+    border-radius: 20px;
+    background-image: url('../image/background.jpg');
+    background-size:cover;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Tea{
+    
+    height: 200px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+button{
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(154, 198, 203);
+    width: 150px;
+}
+
+
+
+table,td,tr,th{
+    border: 2px solid black;
+}
+
+#print{
+    height: 40px;
+    width: 40px;
+}
+
+#Tea:hover{
+    transform:scale(1.05);
+
+}
+button:hover{
+    background-color:cyan;
+}
+td:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:600px){
+    #recipeCard {
+        padding : 20px;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+    }
+    
+}
+
+#pro{
+    transition: value 2s ease-in-out;
+}
